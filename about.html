@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Native Kitchen - About</title>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:700,400&display=swap" rel="stylesheet">
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Montserrat', Arial, sans-serif;
+            background: #e8eed3;
+            color: #232323;
+        }
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 28px 60px;
+            background: #f5f5ef;
+        }
+        .logo {
+            display: flex;
+            align-items: center;
+            font-size: 2.1rem;
+            font-weight: 700;
+        }
+        .logo-img {
+            height: 50px;
+            width: 50px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-right: 16px;
+            border: 2px solid #ffe8b2;
+        }
+        nav {
+            display: flex;
+            gap: 38px;
+        }
+        nav a {
+            text-decoration: none;
+            color: #232323;
+            font-weight: 500;
+            font-size: 1.1rem;
+            position: relative;
+        }
+        nav a.active, nav a:hover {
+            color: #658635;
+        }
+        .hero-top {
+            position: relative;
+            height: 260px;
+            width: 100%;
+            background: linear-gradient(120deg, #708d5a 55%, #373734 100%);
+            color: #fff;
+            display: flex;
+            align-items: flex-end;
+            padding-left: 80px;
+            padding-bottom: 70px;
+            font-size: 2.2rem;
+            font-weight: 700;
+            letter-spacing: 2px;
+        }
+        .content-section {
+            display: flex;
+            align-items: flex-start;
+            gap: 40px;
+            background: #fbfaea;
+            padding: 60px 6vw;
+            border-radius: 0 0 38px 38px;
+            margin-top: -30px;
+            box-shadow: 0 0 50px rgba(140,155,103,0.09);
+        }
+        .content-img {
+            flex: 1 1 320px;
+            max-width: 390px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .content-img img {
+            width: 100%;
+            max-width: 370px;
+            height: auto;
+        }
+        .content-txt {
+            flex: 2 1 400px;
+            padding-top: 16px;
+        }
+        .content-txt h2 {
+            font-size: 2.1rem;
+            color: #545440;
+            font-weight: 700;
+            margin-bottom: 26px;
+        }
+        .content-txt p {
+            font-size: 1.13rem;
+            color: #232323;
+            margin-bottom: 16px;
+            line-height: 1.7;
+        }
+        @media (max-width: 920px) {
+            .content-section {
+                flex-direction: column;
+                align-items: center;
+                gap: 24px;
+                padding: 20px 2vw;
+            }
+            .hero-top {
+                padding-left: 24px;
+                font-size: 1.7rem;
+                padding-bottom: 32px;
+                height: 140px;
+            }
+            .content-txt {
+                padding-top: 0;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="C:\Users\admin\OneDrive\Desktop\sem 3\web\exp7\softweb\generated-image (4).png" alt="Native Kitchen Logo" class="logo-img">
+            Native Kitchen
+        </div>
+        <nav>
+            <a href="index.html">HOME</a>
+            <a href="about.html" class="active">ABOUT</a>
+            <a href="menu.html">MENU</a>
+        </nav>
+    </header>
+    <section class="hero-top">
+        ABOUT
+    </section>
+    <section class="content-section">
+        <div class="content-img">
+            <!-- Use tree/ambience/food illustration here.
+                 Below, use your actual image filename, e.g., image.jpg. -->
+            <img src="C:\Users\admin\OneDrive\Pictures\Screenshots\Screenshot 2025-11-05 161450.png" alt="Restaurant Ambience / Tree Graphic">
+        </div>
+        <div class="content-txt">
+            <h2>Discover Our Journey</h2>
+            <p>Immerse yourself in an extraordinary fine dining experience at Native Kitchen, where high-quality culinary excellence meets Authentic South Indian Vegetarian Cuisine. Our meticulously crafted traditional dishes are served in a luxurious ambience designed to transport you back in time, evoking a sense of nostalgia and delight.</p>
+            <p>Native Kitchen is the brainchild of a group of passionate individuals, united by their love for exceptional food and the desire to create a restaurant unlike any other. Join us and savor the unique blend of tradition and innovation that defines our cuisine, offering you a dining experience that is truly unparalleled.</p>
+        </div>
+    </section>
+</body>
+</html>
